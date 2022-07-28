@@ -31,7 +31,7 @@ You can firstly convert the model to onnx format by running
 
     python pkl2onnx.py 
 
-Once we obtain the onnx model file, we could deploy the model on the board by following the instructions described in [README-Cube.md](). The other two metrics, **Flash occupation** and **Latency** could be obtained based on the reports from STM32CubeMX. 
+Once we obtain the onnx model file, we could deploy the model on the board by following the instructions described in [README-Cube.md](https://github.com/tinymlcontest/tinyml_contest2022_demo_example/blob/master/README-Cube.md). The other two metrics, **Flash occupation** and **Latency** could be obtained based on the reports from STM32CubeMX. 
 
 
 ## How do I obtain the scoring?
