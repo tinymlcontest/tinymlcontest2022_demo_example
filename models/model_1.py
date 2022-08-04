@@ -54,3 +54,14 @@ class IEGMNet(nn.Module):
         fc1_output = F.relu(self.fc1(conv5_output))
         fc2_output = self.fc2(fc1_output)
         return fc2_output
+
+class perceptron(nn.Module):
+    def __init__(self):
+        super(perceptron, self).__init__()
+        self.fc2 = nn.Sequential(
+            nn.Linear(in_features=1250, out_features=2)
+        )
+
+    def forward(self, input):
+        fc2_output = self.fc2(input)
+        return fc2_output
