@@ -12,7 +12,7 @@ This code uses four main scripts, described below, to train and test your model 
 
 You can run this classifier code by installing the requirements
 
-    pip install requirements.txt
+    pip install -r requirements.txt
 
 and running
 
